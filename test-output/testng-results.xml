@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[my test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-07T18:01:30 IST" name="Default suite" finished-at="2024-10-07T18:02:18 IST" duration-ms="48286">
+    <groups>
+    </groups>
+    <test started-at="2024-10-07T18:01:30 IST" name="Default test" finished-at="2024-10-07T18:02:18 IST" duration-ms="48286">
+      <class name="com.amazon.automation.Amazon_Automation.Amazon_ValidLogin">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.amazon.automation.Amazon_Automation.Amazon_ValidLogin@bae7dc0]" started-at="2024-10-07T18:01:30 IST" name="launch" finished-at="2024-10-07T18:01:59 IST" duration-ms="29347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login_amazon()[pri:0, instance:com.amazon.automation.Amazon_Automation.Amazon_ValidLogin@bae7dc0]" started-at="2024-10-07T18:01:59 IST" name="login_amazon" finished-at="2024-10-07T18:02:12 IST" duration-ms="12607" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[my test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_amazon -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.amazon.automation.Amazon_Automation.Amazon_ValidLogin@bae7dc0]" started-at="2024-10-07T18:02:13 IST" name="quit" finished-at="2024-10-07T18:02:18 IST" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.amazon.automation.Amazon_Automation.Amazon_ValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
